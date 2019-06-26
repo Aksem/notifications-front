@@ -24,3 +24,8 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 CSS naming style: [ECSS](https://ecss.io)
 
+### TODO
+
+* [+] Describe how it works
+* [ ] auto reconnection to server with SSE
+* [ ] connection using websockets

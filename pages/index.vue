@@ -1,9 +1,21 @@
 <template>
   <div class="mp-MainPage">
     <div>
-      <h2 class="mp-MainPage_Title">
-        Test application with SSE notifications
-      </h2>
+      <div class="mp-MainPage_Section">
+        <h2 class="mp-MainPage_Title">
+          Test application with SSE notifications
+        </h2>
+        <p>
+          This application connects to a web server and listens notifications(like
+          system notifications in many real applications).
+        </p>
+        <p>
+          It supports SSE(server-sent events) and websockets(in progress). But for both
+          local server is required. To test without server there is a demo mode, in which
+          some random notifications are generated at random time(up to 5 seconds).
+        </p>
+      </div>
+
       <div class="mp-MainPage_Section">
         <p>Connection Type:</p>
         <el-radio-group v-model="connectionType">
